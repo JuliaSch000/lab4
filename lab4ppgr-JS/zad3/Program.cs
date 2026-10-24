@@ -1,33 +1,63 @@
-﻿/// will finish at home becayse this is Evil
+﻿/// I WIN. I DID IT. MERRY CHRISTMAS.
 Console.WriteLine("Podaj wysokość choinki:");
 bool poprawnaLiczba = int.TryParse(Console.ReadLine(), out int wysokosc);
-int szerokoscStala = wysokosc - 1;
-int ileSpacji = 0;
+int spacje = 0;
 int ileHash = 0;
 
 if (poprawnaLiczba)
 {
-    for (int progres = 0; progres <= wysokosc; progres++)
+   
+   for (int progres = 0; progres < wysokosc; progres++)
     {
-        ileSpacji = szerokoscStala - progres;
-        while (ileSpacji > 0)
+        spacje = 0;
+        spacje = wysokosc - progres;
+        while (spacje > 0)
         {
-          Console.Write(" ");
-          ileHash = wysokosc - ileSpacji;
-          while (ileHash > 0)
-            {
-                Console.Write("#");
-                ileHash--;
-            }
-            ileHash = 0;
-          ileSpacji--;
-          
-
+            Console.Write(" ");
+            spacje--;
         }
         
-        Console.Write("#\n");
-        
+        ileHash = 0;
+        ileHash = progres + progres + 1;
+        while (ileHash >0)
+        {
+             Console.Write("#");
+             ileHash--;
+        }
+     
+        spacje = 0;
+        spacje = wysokosc - progres;
+        while (spacje > 0)
+        {
+            Console.Write(" ");
+            spacje--;
+        }
+        Console.Write("\n");
     }
+    
+     spacje = 0;
+        spacje = wysokosc;
+        while (spacje > 0)
+        {
+            Console.Write(" ");
+            spacje--;
+        }
+        
+        ileHash = 1;
+        while (ileHash >0)
+        {
+             Console.Write("#");
+             ileHash--;
+        }
+     
+        spacje = 0;
+        spacje = wysokosc;
+        while (spacje > 0)
+        {
+            Console.Write(" ");
+            spacje--;
+        }
+        Console.Write("\n");
     
 }
 else

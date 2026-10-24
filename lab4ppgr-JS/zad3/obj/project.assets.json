@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\s37673\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s37673\\Desktop\\lab4ppgr-JS\\zad3\\zad3.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\shchool\\project dump\\lab4ppgr-JS\\zad3\\zad3.csproj",
       "projectName": "zad3",
-      "projectPath": "C:\\Users\\s37673\\Desktop\\lab4ppgr-JS\\zad3\\zad3.csproj",
-      "packagesPath": "C:\\Users\\s37673\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s37673\\Desktop\\lab4ppgr-JS\\zad3\\obj\\",
+      "projectPath": "C:\\Users\\admin\\Desktop\\shchool\\project dump\\lab4ppgr-JS\\zad3\\zad3.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\shchool\\project dump\\lab4ppgr-JS\\zad3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\s37673\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"

@@ -1,11 +1,10 @@
-﻿Console.WriteLine("Podaj liczbę tur od 1 do 10:");
-bool poprawnaLiczba = int.TryParse(Console.ReadLine(), out int liczbaTur);
+﻿bool succeeded = false;
+int liczbaTur = 0;
 
-
-while (poprawnaLiczba == true)
+while (succeeded == false)
 {
-    Console.Write("Podaj liczbę tur od 1 do 10: ");
-    bool poprawnyFormat = int.TryParse(Console.ReadLine(), out liczbaTur);
+Console.WriteLine("Podaj liczbę tur od 1 do 10:");
+bool poprawnyFormat = int.TryParse(Console.ReadLine(), out liczbaTur);
 
     if (!poprawnyFormat)
     {
@@ -22,4 +21,4 @@ while (poprawnaLiczba == true)
     break;
 }
 
-Console.WriteLine($"Wybrano {liczbaTur} tur.");
+Console.WriteLine($"Rozpoczynam grę na {liczbaTur} tur.");
